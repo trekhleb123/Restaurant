@@ -19,7 +19,8 @@
 		4F6214A3226BC90600232981 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214A2226BC90600232981 /* MenuItem.swift */; };
 		4F6214C3226BCAF600232981 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214C2226BCAF600232981 /* IntermediaryModels.swift */; };
 		4F6214C5226BCCD400232981 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214C4226BCCD400232981 /* Order.swift */; };
-		4F6214C7226BCF5000232981 /* ManuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214C6226BCF4F00232981 /* ManuController.swift */; };
+		4F6214C7226BCF5000232981 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214C6226BCF4F00232981 /* MenuController.swift */; };
+		4F6214C9226E955400232981 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6214C8226E955400232981 /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,8 @@
 		4F6214A2226BC90600232981 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		4F6214C2226BCAF600232981 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		4F6214C4226BCCD400232981 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		4F6214C6226BCF4F00232981 /* ManuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuController.swift; sourceTree = "<group>"; };
+		4F6214C6226BCF4F00232981 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		4F6214C8226E955400232981 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,17 +72,18 @@
 		4F621487226BB2DD00232981 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				4F62149C226BC0E000232981 /* MenuTableViewController.swift */,
 				4F62149A226BC09F00232981 /* CategoryTableViewController.swift */,
+				4F62149C226BC0E000232981 /* MenuTableViewController.swift */,
+				4F6214A0226BC86D00232981 /* ManuItemDetailUIViewController.swift */,
 				4F62149E226BC15000232981 /* OrderTableViewController.swift */,
+				4F6214C8226E955400232981 /* OrderConfirmationViewController.swift */,
 				4F621488226BB2DD00232981 /* AppDelegate.swift */,
 				4F62148A226BB2DD00232981 /* ViewController.swift */,
 				4F62148C226BB2DD00232981 /* Main.storyboard */,
 				4F6214A2226BC90600232981 /* MenuItem.swift */,
 				4F6214C2226BCAF600232981 /* IntermediaryModels.swift */,
 				4F6214C4226BCCD400232981 /* Order.swift */,
-				4F6214C6226BCF4F00232981 /* ManuController.swift */,
-				4F6214A0226BC86D00232981 /* ManuItemDetailUIViewController.swift */,
+				4F6214C6226BCF4F00232981 /* MenuController.swift */,
 				4F62148F226BB2E400232981 /* Assets.xcassets */,
 				4F621491226BB2E400232981 /* LaunchScreen.storyboard */,
 				4F621494226BB2E400232981 /* Info.plist */,
@@ -161,13 +164,14 @@
 			files = (
 				4F62149D226BC0E000232981 /* MenuTableViewController.swift in Sources */,
 				4F6214A3226BC90600232981 /* MenuItem.swift in Sources */,
-				4F6214C7226BCF5000232981 /* ManuController.swift in Sources */,
+				4F6214C7226BCF5000232981 /* MenuController.swift in Sources */,
 				4F62149F226BC15000232981 /* OrderTableViewController.swift in Sources */,
 				4F6214C5226BCCD400232981 /* Order.swift in Sources */,
 				4F62148B226BB2DD00232981 /* ViewController.swift in Sources */,
 				4F6214C3226BCAF600232981 /* IntermediaryModels.swift in Sources */,
 				4F621489226BB2DD00232981 /* AppDelegate.swift in Sources */,
 				4F62149B226BC09F00232981 /* CategoryTableViewController.swift in Sources */,
+				4F6214C9226E955400232981 /* OrderConfirmationViewController.swift in Sources */,
 				4F6214A1226BC86D00232981 /* ManuItemDetailUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
